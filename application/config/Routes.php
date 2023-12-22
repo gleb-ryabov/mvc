@@ -1,5 +1,5 @@
 <?php
-
+    // Маршруты страниц
     return [
         ''=> [
             'controller'=> 'account',
@@ -13,6 +13,10 @@
         'tasks'=> [
             'controller'=> 'tasks',
             'action'=> 'show',
+        ],
+        'migration'=> [
+            'controller'=> 'migration',
+            'action'=> 'sql',
         ],
     ];
 

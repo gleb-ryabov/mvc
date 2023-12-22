@@ -1,15 +1,15 @@
-.page_404{
+.page404{
     padding:40px 0; 
     background:#fff; 
     font-family: 'Arvo', serif;
     text-align: center;
 }
 
- .page_404  img{
+ .page404  img{
     width:100%;
  }
 
-.four_zero_four_bg{
+.fourZeroFourBg{
     background-image: url(../images/404.gif);
     
     height: 400px;
@@ -18,11 +18,11 @@
  }
  
  
- .four_zero_four_bg h1{
+ .fourZeroFourBg h1{
     font-size:100px;
  }
  
- .four_zero_four_bg h3{
+ .fourZeroFourBg h3{
     font-size:80px;
  }
 
@@ -30,7 +30,7 @@
     font-size: 30px;
 }
 			 
-.link_404{			 
+.link404{			 
 	color: #fff!important;
     font-size: 25px;
     padding: 10px 20px;
@@ -40,6 +40,6 @@
     text-decoration: none;
 }
 
-.contant_box_404{
+.contantBox404{
     margin-top:-50px;
 }

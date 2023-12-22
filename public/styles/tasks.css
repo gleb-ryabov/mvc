@@ -5,14 +5,14 @@ body{
 }
 
 /* Блок создания новой задачи */
-.new_task {
+.newTask {
     text-align: center;
   } 
-  .new_task form {
+  .newTask form {
     display: inline-block;
     margin-bottom: 50px;
   }
-  .new_task input{
+  .newTask input{
     font-size: 26px;
     padding: 10px;
     border-radius: 15px;
@@ -20,10 +20,10 @@ body{
   }
 
 /* Блок кнопок, применимых ко всем задачам */
-.manage_all_task{
+.manageAllTask{
     text-align: center;
 }
-  .manage_all_task form {
+  .manageAllTask form {
     display: inline-block;
     margin-right: 15px;
     margin-bottom: 20px;
@@ -42,16 +42,16 @@ body{
     font-size: 27px;
   }
   /* Описание задачи + кнопки управления задачей */
-  .task-content {
+  .taskContent {
     flex: 1;
   }
   /* Блок кнопок внутри задачи */
-  .buttons_task form{
+  .buttonsTask form{
     display: inline-block;
     margin-right: 15px;
     margin-top: 10px;
   }
-  .img_status img{
+  .imgStatus img{
     width: 90px;
   }
 
@@ -66,10 +66,10 @@ button{
     margin-bottom: 15px;
     cursor: pointer;
 }
-.btn_delete_all, .btn_delete{
+.btnDeleteAll, .btn_delete{
     background-color:red;
 }
-#btn_new_task{
+#btnNewTask{
     font-size: 26px;
     cursor: not-allowed;
 }

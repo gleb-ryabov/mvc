@@ -3,7 +3,7 @@
 function toggleButtonState() {
     var loginValue = document.getElementById('login').value;
     var passwordValue = document.getElementById('password').value;
-    var loginButton = document.getElementById('btn_login');
+    var loginButton = document.getElementById('btnLogin');
 
     if (loginValue && passwordValue) {
         loginButton.removeAttribute('disabled');

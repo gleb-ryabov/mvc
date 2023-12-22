@@ -2,7 +2,7 @@
 // снимает и устанавливает тип курсора
 document.getElementById('description').addEventListener('input', function() {
     var descriptionValue = document.getElementById('description').value;
-    var newTaskButton = document.getElementById('btn_new_task');
+    var newTaskButton = document.getElementById('btnNewTask');
 
     if (descriptionValue) {
         newTaskButton.removeAttribute('disabled');
